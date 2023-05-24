@@ -15,7 +15,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 700;
 }
 
@@ -23,6 +28,7 @@ a {
   color: #2d7788;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
   color: #1a454f;
@@ -31,6 +37,7 @@ a:hover {
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
+
 a:focus {
   text-decoration: none;
 }
@@ -56,21 +63,25 @@ p {
   min-height: 800px;
   color: #fff;
 }
+
 .sidebar-wrapper a {
   color: #fff;
 }
+
 .sidebar-wrapper .profile-container {
   padding: 30px;
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
 }
+
 .sidebar-wrapper .name {
   font-size: 32px;
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
@@ -78,26 +89,33 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .sidebar-wrapper .profile {
   margin-bottom: 15px;
 }
+
 .sidebar-wrapper .contact-list .svg-inline--fa {
   margin-right: 5px;
   font-size: 18px;
   vertical-align: middle;
 }
+
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
 }
+
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
 }
+
 .sidebar-wrapper .contact-list .email .svg-inline--fa {
   font-size: 14px;
 }
+
 .sidebar-wrapper .container-block {
   padding: 30px;
 }
+
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
   font-size: 16px;
@@ -105,17 +123,21 @@ p {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 .sidebar-wrapper .degree {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 5px;
 }
+
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
 }
+
 .sidebar-wrapper .education-container .item:last-child {
   margin-bottom: 0;
 }
+
 .sidebar-wrapper .education-container .meta {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
@@ -123,29 +145,37 @@ p {
   margin-top: 0;
   font-size: 14px;
 }
+
 .sidebar-wrapper .education-container .time {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   margin-bottom: 0px;
 }
+
 .sidebar-wrapper .languages-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .sidebar-wrapper .languages-list {
   margin-bottom: 0;
 }
+
 .sidebar-wrapper .languages-list li {
   margin-bottom: 10px;
 }
+
 .sidebar-wrapper .languages-list li:last-child {
   margin-bottom: 0;
 }
+
 .sidebar-wrapper .interests-list {
   margin-bottom: 0;
 }
+
 .sidebar-wrapper .interests-list li {
   margin-bottom: 10px;
 }
+
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
 }
@@ -155,6 +185,7 @@ p {
   padding: 60px;
   padding-right: 300px;
 }
+
 .main-wrapper .section-title {
   text-transform: uppercase;
   font-size: 20px;
@@ -164,6 +195,7 @@ p {
   margin-top: 0;
   margin-bottom: 20px;
 }
+
 .main-wrapper .section-title .icon-holder {
   width: 30px;
   height: 30px;
@@ -181,21 +213,26 @@ p {
   top: -2px;
   padding-top: 2px;
 }
+
 .main-wrapper .section-title .icon-holder .svg-inline--fa {
   font-size: 14px;
   margin-top: 6px;
 }
+
 .main-wrapper .section {
   margin-bottom: 60px;
 }
+
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
+
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
   margin-bottom: 2px;
 }
+
 .main-wrapper .job-title {
   color: #3F4650;
   font-size: 16px;
@@ -203,25 +240,30 @@ p {
   margin-bottom: 0;
   font-weight: 500;
 }
+
 .main-wrapper .time {
   position: absolute;
   right: 0;
   top: 0;
   color: #97AAC3;
 }
+
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;
 }
+
 .main-wrapper .project-title {
   font-size: 16px;
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 5px;
 }
+
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
+
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
@@ -230,11 +272,13 @@ p {
   margin-bottom: 15px;
   overflow: hidden;
 }
+
 .skillset .level-title {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
 }
+
 .skillset .level-bar {
   height: 12px;
   background: #f5f5f5;
@@ -243,6 +287,7 @@ p {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
 .skillset .theme-progress-bar {
   background: #68bacd;
 }
@@ -251,11 +296,13 @@ p {
   padding: 30px;
   padding-top: 60px;
 }
+
 .footer .copyright {
   line-height: 1.6;
   color: #545E6C;
   font-size: 13px;
 }
+
 .footer .fa-heart {
   color: #fb866a;
 }
@@ -280,6 +327,7 @@ p {
     margin-bottom: 0;
   }
 }
+
 @media (min-width: 992px) {
   .skillset .level-title {
     display: inline-block;
